@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\controllers\\criticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\controllers\\criticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\daos\\basedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\daos\\basedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\pages\\criticamanutencao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\pages\\criticamanutencao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\pages\\criticalistar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\pages\\criticalistar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\helpers\\acoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\helpers\\acoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\helpers\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\helpers\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\daos\\criticadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\daos\\criticadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\models\\critica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\models\\critica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\models\\imodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\models\\imodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\models\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\models\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\models\\critica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\models\\critica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\criticaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\criticaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticaapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}|CriticaApi\\CriticaApi.csproj|solutionrelative:criticaapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|d:\\estudo\\trabalhocamilo\\criticafilmes\\criticafilmes\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}|CriticaFilmes\\CriticaFilmes.csproj|solutionrelative:criticafilmes\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Acoes.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Helpers\\Acoes.cs",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Helpers\\Acoes.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Helpers\\Acoes.cs",
+              "RelativeToolTip": "CriticaFilmes\\Helpers\\Acoes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:31:41.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CriticaListar.razor",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Pages\\CriticaListar.razor",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Pages\\CriticaListar.razor",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Pages\\CriticaListar.razor",
+              "RelativeToolTip": "CriticaFilmes\\Pages\\CriticaListar.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T01:07:12.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CriticaManutencao.razor",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Pages\\CriticaManutencao.razor",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Pages\\CriticaManutencao.razor",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Pages\\CriticaManutencao.razor",
+              "RelativeToolTip": "CriticaFilmes\\Pages\\CriticaManutencao.razor",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T00:53:24.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Api.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Helpers\\Api.cs",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Helpers\\Api.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Helpers\\Api.cs",
+              "RelativeToolTip": "CriticaFilmes\\Helpers\\Api.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:32:49.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Modelo.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Models\\Modelo.cs",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Models\\Modelo.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Models\\Modelo.cs",
+              "RelativeToolTip": "CriticaFilmes\\Models\\Modelo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:35:28.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IModel.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Models\\IModel.cs",
+              "RelativeDocumentMoniker": "CriticaApi\\Models\\IModel.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Models\\IModel.cs",
+              "RelativeToolTip": "CriticaApi\\Models\\IModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T02:12:49.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Critica.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Models\\Critica.cs",
+              "RelativeDocumentMoniker": "CriticaApi\\Models\\Critica.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Models\\Critica.cs",
+              "RelativeToolTip": "CriticaApi\\Models\\Critica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T00:25:55.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseDAO.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\DAOs\\BaseDAO.cs",
+              "RelativeDocumentMoniker": "CriticaApi\\DAOs\\BaseDAO.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\DAOs\\BaseDAO.cs",
+              "RelativeToolTip": "CriticaApi\\DAOs\\BaseDAO.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T23:42:19.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CriticaDAO.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\DAOs\\CriticaDAO.cs",
+              "RelativeDocumentMoniker": "CriticaApi\\DAOs\\CriticaDAO.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\DAOs\\CriticaDAO.cs",
+              "RelativeToolTip": "CriticaApi\\DAOs\\CriticaDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T23:42:21.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CriticaController.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Controllers\\CriticaController.cs",
+              "RelativeDocumentMoniker": "CriticaApi\\Controllers\\CriticaController.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Controllers\\CriticaController.cs",
+              "RelativeToolTip": "CriticaApi\\Controllers\\CriticaController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T23:53:11.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Critica.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Models\\Critica.cs",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Models\\Critica.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Models\\Critica.cs",
+              "RelativeToolTip": "CriticaFilmes\\Models\\Critica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:34:26.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Pages\\Home.razor",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Pages\\Home.razor",
+              "RelativeToolTip": "CriticaFilmes\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T00:34:46.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "CriticaFilmes\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T01:01:04.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "CriticaFilmes\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T00:58:37.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "CriticaApi\\WeatherForecast.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\WeatherForecast.cs",
+              "RelativeToolTip": "CriticaApi\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:34:22.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Program.cs",
+              "RelativeDocumentMoniker": "CriticaApi\\Program.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\Program.cs",
+              "RelativeToolTip": "CriticaApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:31:12.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\_Imports.razor",
+              "RelativeDocumentMoniker": "CriticaFilmes\\_Imports.razor",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\_Imports.razor",
+              "RelativeToolTip": "CriticaFilmes\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T19:53:13.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CriticaApi.http",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\CriticaApi.http",
+              "RelativeDocumentMoniker": "CriticaApi\\CriticaApi.http",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\CriticaApi.http",
+              "RelativeToolTip": "CriticaApi\\CriticaApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-18T01:17:23.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\appsettings.json",
+              "RelativeDocumentMoniker": "CriticaApi\\appsettings.json",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\appsettings.json",
+              "RelativeToolTip": "CriticaApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T02:47:08.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CriticaApi\\appsettings.Development.json",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaApi\\appsettings.Development.json",
+              "RelativeToolTip": "CriticaApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T23:08:23.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Program.cs",
+              "RelativeDocumentMoniker": "CriticaFilmes\\Program.cs",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\Program.cs",
+              "RelativeToolTip": "CriticaFilmes\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:31:56.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\App.razor",
+              "RelativeDocumentMoniker": "CriticaFilmes\\App.razor",
+              "ToolTip": "D:\\Estudo\\TrabalhoCamilo\\CriticaFilmes\\CriticaFilmes\\App.razor",
+              "RelativeToolTip": "CriticaFilmes\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T19:53:04.92Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

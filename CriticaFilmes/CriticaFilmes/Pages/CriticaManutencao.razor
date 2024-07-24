@@ -1,0 +1,176 @@
+﻿@page "/critica/{Acao}/{Id?}"
+@using System.Net.Http
+@using System.Text.Json
+@using CriticaFilmes.Helpers
+@using CriticaFilmes.Models
+@inject NavigationManager NavManager
+
+@if (Objeto == null)
+{
+    <p><strong>Carregando...</strong></p>
+}
+else
+{
+    <h1>Crítica (@Acao)</h1>
+    <EditForm Model="Objeto" OnSubmit="Salvar" FormName="CriticaForm">
+        Nomde do Filme:
+        <input title="NameFilme" @bind-value="Objeto.NameFilme" /><br />
+        Analise:
+        <textarea @bind="Objeto.Analise" rows="10" cols="50"></textarea><br />
+        Autor:
+        <input title="Autor" @bind-value="Objeto.Autor" /><br />
+        Estrelas:
+        <input title="Estrelas" @bind-value="Objeto.Estrelas" />
+        <div>
+            @if (ComparaAcao(Acoes.Alterar))
+            {        
+                <button class="btn btn-warning" type="submit">Alterar</button>
+            }
+            else if (ComparaAcao(Acoes.Inserir))
+            {        
+                <button class="btn btn-primary" type="submit">Inserir</button>
+            }
+            else if (ComparaAcao(Acoes.Excluir))
+            {        
+                <button class="btn btn-danger" type="submit">Excluir</button>
+            }
+            <button class="btn btn-secondary" type="button" @onclick="Voltar">Voltar</button>
+        </div>
+    </EditForm>
+    @if (@mensagem != null)
+    {
+        <div class="alert alert-primary" role="alert">
+            @mensagem
+        </div>
+    }
+}
+
+@code {
+    [Parameter]
+    public string? Acao { get; set; }
+
+    [Parameter]
+    public string? Id { get; set; }
+
+    private bool Desabilitar => 
+        ComparaAcao(Acoes.Consultar, Acoes.Excluir);
+
+    private string? mensagem = null;
+
+    private Critica? Objeto { get; set; }
+
+    private void Voltar()
+    {
+        NavManager.NavigateTo("/critica");
+    }
+
+    private async Task ApresentarMensagem(string mensagem, int duracao = 2)
+    {
+        this.mensagem = mensagem;
+        var apresentarAte = DateTime.Now.AddSeconds(duracao);
+
+        StateHasChanged();
+
+        while (DateTime.Now < apresentarAte)
+            await Task.Delay(1000);
+
+        NavManager.NavigateTo("/critica");
+    }
+
+    private bool ComparaAcao(params string[] acoes)
+    {
+        foreach (var acaoAtual in acoes)
+            if (Acao.Equals(acaoAtual, StringComparison.OrdinalIgnoreCase))
+                return true;
+        
+        return false;
+    }
+
+    private async Task Inserir()
+    {
+        var httpClient = new HttpClient();
+       
+        using StringContent jsonContent = new(
+            JsonSerializer.Serialize(Objeto),
+            System.Text.Encoding.UTF8,
+            "application/json"
+        );
+
+        using HttpResponseMessage response = await httpClient.PostAsync(
+                $"https://localhost:7022/api/critica",
+                jsonContent
+            );
+
+        response.EnsureSuccessStatusCode();
+
+        await ApresentarMensagem("Critica inserida com sucesso!");
+    }
+
+    private async Task Alterar()
+    {
+        var httpClient = new HttpClient();
+       
+        using StringContent jsonContent = new(
+            JsonSerializer.Serialize(Objeto),
+            System.Text.Encoding.UTF8,
+            "application/json"
+        );
+
+        using HttpResponseMessage response = await httpClient.PutAsync(
+                $"https://localhost:7022/api/critica/{Id}",
+                jsonContent
+            );
+
+        response.EnsureSuccessStatusCode();
+
+        await ApresentarMensagem($"Critica alterada com sucesso!");
+    }
+
+    private async Task Excluir()
+    {
+        var httpClient = new HttpClient();
+       
+        using HttpResponseMessage response = await httpClient.DeleteAsync(
+            $"https://localhost:7022/api/critica/{Id}"
+        );
+
+        response.EnsureSuccessStatusCode();
+
+        await ApresentarMensagem("Critica excluída com sucesso!");
+    }
+
+    private async Task Salvar()
+    {
+ 
+        if (ComparaAcao(Acoes.Alterar))
+            await Alterar();
+        else if (ComparaAcao(Acoes.Inserir))
+            await Inserir();
+        else if (ComparaAcao(Acoes.Excluir))
+            await Excluir();
+        
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Acao.Equals(Acoes.Inserir, StringComparison.OrdinalIgnoreCase))
+        {
+            Objeto = new Critica();
+            return;
+        }
+
+        var client = new HttpClient();
+       
+        using HttpResponseMessage response = await client.GetAsync($"https://localhost:7022/api/critica/{Id}");
+        response.EnsureSuccessStatusCode();
+        string responseBody = await response.Content.ReadAsStringAsync();
+
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+
+        Objeto = JsonSerializer.Deserialize<Critica>(responseBody, options);
+    }
+}
+

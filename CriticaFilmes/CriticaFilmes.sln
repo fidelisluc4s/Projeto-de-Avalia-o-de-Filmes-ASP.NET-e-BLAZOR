@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriticaFilmes", "CriticaFilmes\CriticaFilmes.csproj", "{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}"
+	ProjectSection(ProjectDependencies) = postProject
+		{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C} = {182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriticaApi", "CriticaApi\CriticaApi.csproj", "{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D088510-B6FE-4D53-ABF6-10E34D4C9C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182DE0A9-3A7D-4716-AA83-6B0E96C53D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1FA69D6-43B8-4713-AB2C-A9D61D76F014}
+	EndGlobalSection
+EndGlobal

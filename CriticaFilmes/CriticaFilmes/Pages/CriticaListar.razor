@@ -1,0 +1,54 @@
+﻿@page "/critica"
+@using CriticaFilmes.Models
+@using CriticaFilmes.Helpers
+@using System.Net.Http
+@using System.Text.Json
+@inject Api api
+
+<h1>Criticas</h1>
+
+@if (Objetos == null)
+{
+    <p><strong>Sem criticas atualmente...</strong></p>
+}
+else
+{
+    <a href=@($"/critica/{Acoes.Inserir}") class="btn btn-primary">Inserir</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Nome do Filme</th>
+                <th scope="col">Analise</th>
+                <th scope="col">Autor da Critica</th>
+                <th scope="col">Estrelas</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Objetos)
+            {
+                <tr>
+                    <td>@obj.NameFilme</td>
+                    <td>@obj.Analise</td>
+                    <td>@obj.Autor</td>
+                    <td>@obj.Estrelas</td>
+                    <td>
+                        <a href=@($"/critica/{Acoes.Alterar}/{obj.Id}") class="btn btn-warning">Alterar</a>
+                        <a href=@($"/critica/{Acoes.Excluir}/{obj.Id}") class="btn btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+@code {
+    private IList<Critica>? Objetos { get; set; } = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IList<Critica> criticas = await api.GetAsync<Critica>($"https://localhost:7022/api/critica");
+        Objetos = criticas;
+    }
+}
